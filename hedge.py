@@ -6,6 +6,7 @@ Refer to 'Finance and Investing' doc for more explanation
 
 # Market value of portfolio (that is what is hedged, not invested amount)
 # Note: As I am only hedging CSPX and IWDA, beta for my portfolio is 1
+# Take beta of IWDA to be 0.89 for now (see 'Finance and Investing' doc)
 mkt_val = float(input('Beta-weighted portfolio value in USD: '))
 
 # SPY price
