@@ -4,6 +4,8 @@ Refer to 'Finance and Investing' doc for more explanation
 """
 # Hedge instrument: SPY puts
 
+# NOTE: This calculates a 1:1 put spread, not the 1:1.1 as described in the 'Options Edge' book
+
 # Market value of portfolio (that is what is hedged, not invested amount)
 # Note: As I am only hedging CSPX and IWDA, beta for my portfolio is 1
 # Take beta of IWDA to be 0.89 for now (see 'Finance and Investing' doc)
