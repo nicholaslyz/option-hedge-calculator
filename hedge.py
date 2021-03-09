@@ -5,11 +5,14 @@ Refer to 'Finance and Investing' doc for more explanation
 # Hedge instrument: SPY puts
 
 # NOTE: This calculates a 1:1 put spread, not the 1:1.1 as described in the 'Options Edge' book
-
+#    A 1:1.1 spread ratio would make sense if I'm buying 10 options or more
 # Market value of portfolio (that is what is hedged, not invested amount)
 # Note: As I am only hedging CSPX and IWDA, beta for my portfolio is 1
 # Take beta of IWDA to be 0.89 for now (see 'Finance and Investing' doc)
 # Beta of DPYA = IWDP = 0.99
+# 5yr beta of ISAC = 1
+# 5yr beta of
+# Move more than how much then to sell?
 mkt_val = float(input('Beta-weighted portfolio value in USD: '))
 
 # SPY price
